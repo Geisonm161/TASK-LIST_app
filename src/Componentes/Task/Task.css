@@ -1,0 +1,51 @@
+
+.container-task{
+    padding: 4px 10px 4px 10px;
+    background: rgba(49, 49, 49, 0.643);
+    width: 360px;
+    height:  200px;
+    margin-top: 20px;
+    border: 1px solid  rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    overflow: auto;
+}
+
+.container-task::-webkit-scrollbar{
+    width: 6px;
+    height: 0px;
+    background: #efefef3b;
+  } 
+  
+  .container-task::-webkit-scrollbar-thumb{
+    background:#00000075;
+  }
+
+  .task-create-task{
+    padding: 4px 10px 4px 10px;
+    background: rgba(49, 49, 49, 0.643);
+    width: 360px;
+    min-height:  45px;
+    margin-top: 20px;
+    border: 1px solid  rgb(0, 0, 0);
+    font-weight:500;
+    border-radius: 5px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+hr{
+    margin: 5px 0px 0px 0px;
+}
+
+.information-task{
+    display: block;
+    min-height: 5px;
+    width: 340px;
+}
+
+.container-icons{
+    display: flex;
+    align-items: center;
+}

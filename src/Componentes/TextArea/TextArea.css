@@ -1,0 +1,16 @@
+.foot-text-area{
+    margin:0px 0px 2px 10px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.838);
+}
+
+.inside-input-textarea{
+    width: 350px;
+    min-height: 45px;
+    resize: vertical;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    overflow: auto;
+    margin-bottom: 20px;
+}

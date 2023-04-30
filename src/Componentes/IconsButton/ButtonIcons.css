@@ -1,0 +1,64 @@
+.icono-remove{
+    display: flex;
+    font-size: 16PX;
+    align-items: center;
+    justify-content: center;
+    width: 40px ;
+    color: rgba(0, 0, 0, 0.832);
+    background-color: rgb(255, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+
+}
+
+.icono-remove:hover{
+    color: rgb(0, 0, 0);
+    border: solid 1px rgb(0, 0, 0);
+}
+
+.icono-task{
+    display: flex;
+    font-size: 16PX;
+    align-items: center;
+    justify-content: center;
+    width: 40px ;
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 21, 174);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.icono-task:hover{
+    color: rgb(0, 255, 4);
+    border: solid 1px rgb(0, 255, 4) ;
+}
+
+.cancel{
+    margin-left: 210px;
+    display: flex;
+    font-size: 16PX;
+    align-items: center;
+    justify-content: center;
+    width: 60px ;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.64);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 7px;
+    height: 5px;
+    font-family: sans-serif;
+    border: solid rgb(0, 0, 0) 1px;
+    font-size: 12px;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.cancel:hover{
+    border: solid rgb(255, 255, 255) 1px;
+}

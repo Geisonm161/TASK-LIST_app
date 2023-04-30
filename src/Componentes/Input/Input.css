@@ -1,0 +1,28 @@
+
+.input-create{
+    width: 360px;
+    height: 35px;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.inside-input{
+    display: flex;
+    width: 350px;
+    height: 35px;
+    padding: 10px;
+    margin: 0px 0px 20px 0px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    overflow: auto;
+}
+
+
+
+.foot-input{
+    margin:0px 0px 2px 10px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.838);
+}
+

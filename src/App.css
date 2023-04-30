@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-image: url(./assets/image/Imagenes/yeison-01.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    height: 30rem;
+}
+
+@media (max-width: 550px) {
+
+    html,
+    body {
+        background-image: url(./assets/image/Imagenes/potw1610a.jpg);
+        height: 50rem;
+
+       
+    
+}
+}
